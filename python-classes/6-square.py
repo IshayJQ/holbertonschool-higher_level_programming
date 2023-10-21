@@ -6,13 +6,14 @@
 class Square:
     """The class that represents a square"""
 
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         """Initialize a new Square.
 
         Args:
             size (int): The size of the new square
         """
         self.size = size
+        self.position = position
 
     @property
     def size(self):
