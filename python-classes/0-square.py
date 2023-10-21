@@ -3,6 +3,7 @@
 Creating a class that represents a square
 """
 
+
 class Square:
     """
     The class that represents a square
